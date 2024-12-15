@@ -1,0 +1,22 @@
+.product-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+}
+.product-card:hover .product-overlay {
+    transform: translateY(0);
+}
+img {
+    width: 100%;
+    height: auto;
+}
